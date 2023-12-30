@@ -1,13 +1,17 @@
-## How to create an EC2 instance on AWS using Terraform
+# How to create an EC2 instance on AWS using Terraform
 
-![Step 1](image_url_for_step_1.png)
+![0](https://raw.githubusercontent.com/elarsaks/terraform-aws-ec2/main/docs/1.jpg)
 
-1. **Download and install Terraform:** I installed it on Windows with just a single command that I copied from the HashiCorp website.
+**Download and install Terraform:** I installed it on Windows with just a single command that I copied from the HashiCorp website.
+![1](https://raw.githubusercontent.com/elarsaks/terraform-aws-ec2/main/docs/2.png)
 
-![Step 2](image_url_for_step_2.png) 2. **Create an IAM user and assign permissions:** Create an IAM user and assign permissions for it to be allowed to create EC2 instances. I used AmazonEC2FullAccess (this might grant excessive permissions, but it is good enough for learning purposes).
+**Create an IAM user and assign permissions:** Create an IAM user and assign permissions for it to be allowed to create EC2 instances. I used AmazonEC2FullAccess (this might grant excessive permissions, but it is good enough for learning purposes).
+![Step 2](https://raw.githubusercontent.com/elarsaks/terraform-aws-ec2/main/docs/3.png)
 
-![Step 3](image_url_for_step_3.png) 3. **Define the provider and the resource:** See code below in the slides.
+**Define the provider and the resource:** See code below in the slides.
+![Step 3](https://raw.githubusercontent.com/elarsaks/terraform-aws-ec2/main/docs/4.png)
 
-![Step 4](image_url_for_step_4.png) 4. **Format, validate, and deploy your code:** Use the Terraform command-line tool.
+**Format, validate, and deploy your code:** Use the Terraform command-line tool.
+![Step 3](https://raw.githubusercontent.com/elarsaks/terraform-aws-ec2/main/docs/5.png)
 
-![Step 5](image_url_for_step_5.png) 5. **Clean up:** Use the Terraform CLI command to clean up after yourself.
+**Clean up:** Use the Terraform CLI command to clean up after yourself.
